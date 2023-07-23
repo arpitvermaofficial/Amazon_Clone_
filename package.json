@@ -74,6 +74,7 @@
     "mquery": "^5.0.0",
     "ms": "^2.0.0",
     "negotiator": "^0.6.3",
+    "netlify-lambda": "^2.0.16",
     "nopt": "^1.0.10",
     "normalize-path": "^3.0.0",
     "object-inspect": "^1.12.3",
@@ -94,6 +95,7 @@
     "semver": "^5.7.1",
     "send": "^0.18.0",
     "serve-static": "^1.15.0",
+    "serverless-http": "^3.2.0",
     "setprototypeof": "^1.2.0",
     "side-channel": "^1.0.4",
     "sift": "^16.0.1",
@@ -117,8 +119,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./Server/index.js",
-    "dev": "nodemon ./Server/index.js"
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
   },
   "author": "",
   "license": "ISC",
