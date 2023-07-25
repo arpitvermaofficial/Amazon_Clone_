@@ -6,7 +6,7 @@ const adminrouter = require("./Routes/admin");
 const productrouter=require("./Routes/product");
 const userrouter=require("./Routes/user");
 
-const PORT = process.env.PORT|| 3000;
+const PORT = process.env.PORT || 3000;
 const app = express();
 const db="mongodb+srv://username:password@cluster0.qakp2nr.mongodb.net/?retryWrites=true&w=majority"
 app.use(express.json());

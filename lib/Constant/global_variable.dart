@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-String uri = "youripadress:3000";
+String uri = "https://amazoncloneserver-production.up.railway.app/";
 
 class Globalariables {
   static const appBarGradient = LinearGradient(
